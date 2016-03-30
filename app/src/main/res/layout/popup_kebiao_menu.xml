@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<ListView
+    android:layout_marginTop="5dp"
+    android:background="@drawable/ic_dropdown_week_bg"
+    android:id="@+id/popup_list"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:divider="#123"
+    android:scrollbars="none" >
+</ListView>
+    <Button
+        android:id="@+id/drop_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_kebiao_drop_this_week"
+        android:textColor="@color/findwhite"
+        android:textSize="18sp"
+        android:background="@drawable/btn_kebiao_drop_this_week"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

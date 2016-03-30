@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.yanzi.ui.HeadControlPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/actionbar"
+    android:layout_alignParentTop="true">
+    <ImageView
+        android:id="@+id/head_image"
+        android:layout_marginLeft="18dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        />
+    <TextView
+        android:textSize="18sp"
+        android:id="@+id/midle_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/TitleText"/>
+
+
+    <TextView
+        android:textSize="18sp"
+         android:id="@+id/right_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/TitleText"/>
+        
+</org.yanzi.ui.HeadControlPanel>

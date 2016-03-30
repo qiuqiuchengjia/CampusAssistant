@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/province_layout"
+    android:background="@color/findwhite"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/tv_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="湖南工程学院"
+        />
+
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="@color/segmentation_line"/>
+</LinearLayout>

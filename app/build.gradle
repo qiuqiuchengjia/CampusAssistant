@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.example.fragmentproject"
+        minSdkVersion 14
+        targetSdkVersion 17
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile files('libs/thinkandroid-1.1-bin.jar')
+    compile files('libs/android-support-v4.jar')
+    compile files('libs/slidingmenu.jar')
+    compile files('libs/gson-2.2.4.jar')
+    compile files('libs/android-async-http-1.4.8.jar')
+    compile project(':customShapeImageView')
+    compile files('libs/universal-image-loader-1.9.5.jar')
+    compile files('libs/jsoup-1.8.3.jar')
+}

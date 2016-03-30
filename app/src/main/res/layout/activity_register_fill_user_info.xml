@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/register_college_layout"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/head"
+        layout="@layout/head_panel_layout"
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textview_fill_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="a  b  c   d"
+            android:textStyle="italic"
+            android:padding="30dp"
+            android:background="@drawable/register_fill_user_info_code"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/register_user_btn"
+            android:textColor="@color/blue"
+            android:text="@string/register_show_info_reset"
+            android:layout_gravity="right"
+            android:id="@+id/button_fill_code"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_user"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       >
+        <LinearLayout
+            android:id="@+id/ll_user_info"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/lbs_popup_bg"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/edittext_username"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:inputType="text"
+                android:hint="@string/loginusername"
+                android:background="@drawable/login_et_bg"
+                android:layout_margin="2dp"/>
+            <View
+                android:layout_height="0.5dp"
+                android:layout_width="match_parent"
+                android:background="@color/devide_line"/>
+            <EditText
+                android:id="@+id/edittext_code"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:hint="@string/register_fill_user_info_code"
+                android:background="@drawable/login_et_bg"
+                android:layout_margin="2dp"/>
+
+            <View
+                android:layout_height="0.5dp"
+                android:layout_width="match_parent"
+                android:background="@color/devide_line"/>
+            <EditText
+                android:id="@+id/edittext_password"
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:inputType="textPassword"
+                android:hint="@string/student_number_password"
+                android:background="@drawable/login_et_bg"
+                android:layout_margin="2dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="@string/register_fill_user_info_button"
+            android:layout_below="@id/ll_user_info"
+            android:background="@drawable/login_btn"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+</LinearLayout>

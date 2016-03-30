@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/findwhite"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent" >
+<RelativeLayout
+    android:id="@+id/layout_user_touxiang"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.meg7.widget.CircleImageView
+        android:src="@mipmap/login_default_picture"
+        android:layout_marginLeft="18dp"
+        android:id="@+id/setting_picture"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="18dp"
+        />
+
+    <TextView
+        android:id="@+id/settint_sign"
+        android:text="@string/user_sign"
+        android:layout_marginLeft="18dp"
+        android:textSize="18sp"
+        android:textColor="@color/TextTransparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/setting_picture"
+        android:layout_toRightOf="@+id/setting_picture"
+        android:layout_toEndOf="@+id/setting_picture" />
+
+    <TextView
+        android:id="@+id/setting_name"
+        android:textSize="20sp"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/setting_picture"
+        android:layout_toRightOf="@+id/setting_picture"
+        android:layout_toEndOf="@+id/setting_picture" />
+</RelativeLayout>
+
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="@color/devide_line"/>
+    <LinearLayout
+        android:layout_marginTop="18dp"
+        android:id="@+id/my_number"
+        android:focusable="true"
+        android:onClick="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_my_account_number"/>
+        <TextView
+            android:id="@+id/user_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:text="13786269055"
+            android:textColor="@color/TextTransparent"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/bluetext"
+        android:layout_marginLeft="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_be_in_common_use"/>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="0.5dp"
+        android:layout_width="match_parent"
+        android:background="@color/blueline"/>
+        <TextView
+            android:focusable="true"
+            android:onClick="true"
+            android:id="@+id/setting_quit"
+            android:textSize="18dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/red_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_quit"/>
+
+
+
+</LinearLayout>

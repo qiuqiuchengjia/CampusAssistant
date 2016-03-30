@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fragmentproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <!--允许应用程序完全使用网络-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--允许应用程序读写文件的权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name="org.yanzi.constant.ImageLoaderApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.yanzi.activity.MainActivity"
+            android:label="@string/app_name"
+            android:logo="@drawable/ic_app_logo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="org.yanzi.activity.ActivityLogin"></activity>
+        <activity android:name="org.yanzi.activity.ActivityRegisterSelectProvince"></activity>
+        <activity android:name="org.yanzi.activity.ActivityRegisterSchool"></activity>
+        <activity android:name="org.yanzi.activity.ActivityRegisterShowInfo"></activity>
+        <activity android:name="org.yanzi.activity.ActivitySchoolOpensTime"></activity>
+        <activity android:name="org.yanzi.activity.ActivityRegisterSelectCollege"></activity>
+        <activity android:name="org.yanzi.activity.ActivityRegisterSelectCareer"></activity>
+        <activity android:name="org.yanzi.activity.AcitvityRegisterFillUserInfo"></activity>
+        <activity android:name="org.yanzi.activity.ActivityKebiao"></activity>
+        <activity android:name="org.yanzi.activity.ActivityRegisterCity"></activity>
+        <activity android:name="org.yanzi.activity.ActivityCourseDeatil"></activity>
+    </application>
+
+</manifest>

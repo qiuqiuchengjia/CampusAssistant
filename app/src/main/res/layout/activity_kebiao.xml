@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/activity_register_select_city_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.yanzi.ui.HeadControlPanel
+        android:id="@+id/head_panel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/actionbar"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:id="@+id/kebiao_head_image"
+            android:layout_marginLeft="18dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/kebiao_midle_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:onClick="true"
+            android:layout_centerInParent="true"
+            android:textColor="@color/TitleText"/>
+
+
+        <TextView
+            android:textSize="18sp"
+            android:id="@+id/kebiao_right_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/TitleText"/>
+
+    </org.yanzi.ui.HeadControlPanel>
+    <RelativeLayout
+        android:id="@+id/sum_relative_layout"
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+
+        <TextView android:id="@+id/test_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/kebiao_text_color"
+            android:textSize="16sp"
+            style="@style/courseTableText"
+            android:text="@string/month"
+            android:background="@drawable/course_text_view_bg"
+            />
+
+
+        <TextView android:id="@+id/test_monday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/kebiao_text_color"
+            android:textSize="16sp"
+            android:text="@string/mon"
+            style="@style/courseTableText"
+            android:layout_toRightOf="@id/test_empty"
+            android:background="@drawable/course_text_view_bg"
+            />
+
+
+
+        <TextView android:id="@+id/test_tuesday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/kebiao_text_color"
+            android:textSize="16sp"
+            android:text="@string/tue"
+            style="@style/courseTableText"
+            android:layout_toRightOf="@id/test_monday_course"
+            android:background="@drawable/course_text_view_bg"
+            />
+
+
+        <TextView android:id="@+id/test_wednesday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/kebiao_text_color"
+            android:textSize="16sp"
+            android:text="@string/wen"
+            style="@style/courseTableText"
+            android:layout_toRightOf="@id/test_tuesday_course"
+            android:background="@drawable/course_text_view_bg"
+            />
+
+
+        <TextView android:id="@+id/test_thursday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/kebiao_text_color"
+            android:textSize="16sp"
+            android:text="@string/thu"
+            style="@style/courseTableText"
+            android:layout_toRightOf="@id/test_wednesday_course"
+            android:background="@drawable/course_text_view_bg"
+            />
+
+        <TextView android:id="@+id/test_friday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/kebiao_text_color"
+            android:textSize="16sp"
+            android:text="@string/fri"
+            style="@style/courseTableText"
+            android:layout_toRightOf="@id/test_thursday_course"
+            android:background="@drawable/course_text_view_bg"
+            />
+
+        <TextView android:id="@+id/test_saturday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/kebiao_text_color"
+            android:textSize="16sp"
+            android:text="@string/sta"
+            style="@style/courseTableText"
+            android:layout_toRightOf="@id/test_friday_course"
+            android:background="@drawable/course_text_view_bg"
+            />
+
+
+        <TextView android:id="@+id/test_sunday_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/courseTableText"
+            android:textColor="@color/kebiao_text_color"
+            android:textSize="16sp"
+            android:text="@string/sun"
+            android:layout_toRightOf="@id/test_saturday_course"
+            android:background="@drawable/course_table_last_colum"
+            />
+        <ScrollView
+            android:id="@+id/scroll_body"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/test_empty"
+            android:scrollbars="none"
+            >
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/test_course_rl"
+                >
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+
+</LinearLayout>

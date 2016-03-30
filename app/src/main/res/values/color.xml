@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="divider_color">#FFCCCCCC</color>
+  <color name="background_color">#CACDD1</color>
+  <!--这个是find页面中的白色的地面-->
+  <color name="findwhite">#FFFFFFFF</color>
+
+  <!--这个是find页面中的白色的地面-->
+  <color name="kecheng_cell_white_background">#33FFFFFF</color>
+
+  <!--这个是find页面中的白色的地面-->
+  <color name="kebiao_menu_background">#00FFFFFF</color>
+  <!--这个是fragment中有一点透明度的字体的颜色-->
+  <color name="TextTransparent">#8D8D8D</color>
+  <!--这个是顶部actionbar的字体颜色-->
+  <color name="TitleText">#FFFFFF</color>
+  <!--这个是顶部actionbar的颜色-->
+  <color name="actionbar">#D43D3D</color>
+  <!--这个是当一个条目被点击的时候变成的颜色-->
+  <color name="clickitem">#EDFAFF</color>
+  <!--这个是蓝色的字体-->
+  <color name="bluetext">#0079FF</color>
+
+  <!--这个是蓝色的分割线-->
+  <color name="blueline">#0079FF</color>
+  <!--这个是hint字体的颜色-->
+  <color name="hintText">#999999</color>
+  <!--这个是登录界面分割线的颜色-->
+  <color name="devide_line">#CBCED2</color>
+  <!--登录界面蓝色字体-->
+  <color name="blue">#499BF7</color>
+  <!--分隔线-->
+  <color name="segmentation_line">#F1F1F1</color>
+  <!--选择一个条目的时候出现的蓝色界面-->
+  <color name="click_item_blue">#EDFAFF</color>
+  <!--课程详情界面的课程名字颜色-->
+  <color name="course_kecheng_name">#D43D3D</color>
+  <!--退出登录字体颜色-->
+  <color name="red_text">#D43D3D</color>
+  <!--dialog的背景颜色-->
+  <color name="dialog_layout">#FFFFFF</color>
+  <!--这个是课表的字体颜色-->
+  <color name="kebiao_text_color">#0079FF</color>
+
+  <!--这个是课表界面下拉条的item的点击颜色-->
+  <color name="kebiao_listview_item_click">#33499BF7</color>
+  <!--这个是课表界面按钮的默认颜色-->
+  <color name="kebiao_listview_btn_default">#66FFCCCC</color>
+  <!--这个是课表界面按钮的的点击颜色-->
+  <color name="kebiao_listview_btn_click">#FF499BF7</color>
+</resources>
