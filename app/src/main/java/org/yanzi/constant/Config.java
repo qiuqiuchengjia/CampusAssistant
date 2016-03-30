@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 
 public class Config {
-	//这个是git服务器的第二次测试
+	//这个是git服务器的
 
 
 
