@@ -9,16 +9,16 @@ public class Config {
 
 
 	//这个是专门用来检查用户登录
-	private static String ip="59.71.5.24";
-	public static final String LOGIN_URL="http://"+ip+"/PHP1000/login.php";//登录的时候检查用户登录
-	public static final String LOGIN_GET_USER_PICTURE_URL = "http://"+ip+"/PHP1000/getusertouxiang.php";//这个是登录的时候获取用户的头像
-	public static final String REGISTER_GET_CITY_URL = "http://"+ip+"/PHP1000/registergetcity.php";//这个是注册的时候
-	public static final String REGISTER_GET_SCHOOL_URL = "http://"+ip+"/PHP1000/registergetschool.php";//这个是注册的时候
-	public static final String REGISTER_GET_COLLEGE_URL = "http://"+ip+"/PHP1000/registergetcollege.php";//这个是获取学院
-	public static final String REGISTER_GET_CAREER_URL = "http://"+ip+"/PHP1000/registergetcareer.php";//这个是获取专业
-	public static final String REGISTER_FILL_GET_CODE_URL = "http://"+ip+"/PHP1000/registergetcode.php";//这个是注册时候获取验证码
-	public static final String REGISTER_SUBMIT_USER_INFO = "http://"+ip+"/PHP1000/registergetsubmituserinfo.php";//这个是用户注册的信息提交
-	public static final String KEBIAO_GET_COURSE_URL ="http://"+ip+"/PHP1000/getcourseinfo.php" ;
+	private static String ip="59.71.5.22";
+	public static final String LOGIN_URL="http://"+ip+"/CampusAssistantServer/login.php";//登录的时候检查用户登录
+	public static final String LOGIN_GET_USER_PICTURE_URL = "http://"+ip+"/CampusAssistantServer/getusertouxiang.php";//这个是登录的时候获取用户的头像
+	public static final String REGISTER_GET_CITY_URL = "http://"+ip+"/CampusAssistantServer/registergetcity.php";//这个是注册的时候
+	public static final String REGISTER_GET_SCHOOL_URL = "http://"+ip+"/CampusAssistantServer/registergetschool.php";//这个是注册的时候
+	public static final String REGISTER_GET_COLLEGE_URL = "http://"+ip+"/CampusAssistantServer/registergetcollege.php";//这个是获取学院
+	public static final String REGISTER_GET_CAREER_URL = "http://"+ip+"/CampusAssistantServer/registergetcareer.php";//这个是获取专业
+	public static final String REGISTER_FILL_GET_CODE_URL = "http://"+ip+"/CampusAssistantServer/registergetcode.php";//这个是注册时候获取验证码
+	public static final String REGISTER_SUBMIT_USER_INFO = "http://"+ip+"/CampusAssistantServer/registergetsubmituserinfo.php";//这个是用户注册的信息提交
+	public static final String KEBIAO_GET_COURSE_URL ="http://"+ip+"/CampusAssistantServer/getcourseinfo.php" ;
 	public static final String KEY_CODE="utf-8";//传数据给服务器使用的字符编码
 	public static final String APP_ID = "com.qiu.xiaoyuan";//这个是我APP的ID
 

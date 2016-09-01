@@ -4,6 +4,7 @@ package org.yanzi.activity;
 import android.app.Activity;
 import android.app.Dialog;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 
@@ -58,6 +59,7 @@ public class ActivityRegisterCity extends Activity {
         RequestParams params = new RequestParams();
         params.put(Config.CONNECTION_KEY,Config.REGISTER_GET_CITY_KEY);
         params.put(Config.REGISTER_SEND_PROVINCE,province);
+        Log.d("提示","要开始post了");
         dialogs.show();
         client.post(Config.REGISTER_GET_CITY_URL, params, new AsyncHttpResponseHandler() {
             @Override

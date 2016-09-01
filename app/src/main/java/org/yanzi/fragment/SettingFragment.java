@@ -76,13 +76,8 @@ public class SettingFragment extends BaseFragment {
 
 		user = (User) SaveAndGetObject.readObject(mActivity, Config.SAVE_USER_OBJECT_KEY);
 		//判断真实名字是否存在
-		if(user.getName().equals("")) {
-			if(Config.getCachedUsername(mActivity)!=null){
-				tv_username.setText(Config.getCachedUsername(mActivity));
-			}
-		}else{
-			tv_username.setText(user.getName());
-		}
+		tv_username.setText(user.getName());
+
 
 
 
